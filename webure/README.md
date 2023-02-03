@@ -1,0 +1,2 @@
+step:1=
+navbar with background color none  multiple nav items like home service careers ROI Stories blog contacts  and logo=webure technologys  and let's talk button with border and beautifull designe and navitems present in the center of screen at top using tailwind css
