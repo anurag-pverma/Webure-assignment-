@@ -92,10 +92,9 @@ function App() {
       </summary>
       {/* loogo is here  */}
       <div class="flex justify-around m-4">
+        
         <div class="text-center flex justify-around text-[#B7C0CC]">
-          <span className="text-4xl">
-            <BsSlack />
-          </span>
+          <h3>Our Capabilities</h3>
           <p class="text-[#B7C0CC] text-2xl px-2 font-semibold">Slack</p>
         </div>
         <div class="text-center flex justify-around text-[#B7C0CC]">
@@ -122,28 +121,23 @@ function App() {
 
       {/* SERVICES FOR WEBURE */}
       <div class="flex justify-around m-4">
-        <div class="text-center flex justify-around text-[#B7C0CC]">
-          <p class="text-[#747582]">We will bring the breathe of our experience and industry knowledge to help you succeed
-</p>
-        </div>
-        <div class="text-center flex justify-around text-[#B7C0CC]">
-          <p class="text-[#747582]">
-          Leverage agile framework to provide a robust high level synopsys overviews
-          </p>
+        <div class="text-center flex flex-col">
+          <h1>Our Capabilities</h1>
+          <p class="text-[#747582]">We will bring the breathe of our experience and industry knowledge to help you succeed</p>
         </div>
 
-        <div class="text-center flex justify-around text-[#B7C0CC]">
-          <img
-            src="https://img.icons8.com/color/96/000000/microsoft.png"
-            alt="Microsoft logo"
-            className="w-10 h-10"
-          />
-          <p class="text-[#747582]">
-          Bring to the table survival strategies to ensure proactive domination
-          </p>
+        <div class="text-center flex flex-col ">
+          <p class="text-[#747582]">Leverage agile framework to provide a robust high level synopsys overviews</p>
         </div>
 
-        <div class="text-center flex justify-around text-[#B7C0CC]">
+        <div class="text-center flex flex-col">
+          <img src="https://webure-tech.netlify.app/assets/Group%202058-09b4425e.png" alt="Cunsult" className="w-10 h-10"/>
+          <h3>Create</h3>
+          <p class="text-[#747582]">Bring to the table survival strategies to ensure proactive domination</p>
+        </div>
+
+        <div class="text-center flex">
+          <img src="https://webure-tech.netlify.app/assets/Group%202059-d8c26943.png" alt="Collaborate" />
           <p class="text-[#747582] ">Grow the holistic world view of disruptive innovation workspace</p>
         </div>
       </div>
