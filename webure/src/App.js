@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./App.css";
 import { BsFillPlayCircleFill, BsSlack } from "react-icons/bs";
+import Service from "./Components/Service";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
             Webure Technologies
           </div>
         </div>
-        <div class="flex items-center">
+        <div className="flex items-center">
           <Link
             to="/"
             className="px-3 py-2 font-medium text-gray-600 hover:text-grey"
@@ -57,48 +58,48 @@ function App() {
       </nav>
 
       <summary>
-        <div class="flex items-center h-screen bg-[rgb(255, 100, 137, 0.04)] ">
-          <div class="w-full max-w-xl mx-auto  bg-white rounded-l">
-            <h1 class="text-5xl font-bold text-center text-gray-800">
+        <div className="flex items-center h-screen bg-[rgb(255, 100, 137, 0.04)] ">
+          <div className="w-full max-w-xl mx-auto  bg-white rounded-l">
+            <h1 className="text-5xl font-bold text-center text-gray-800">
               Reach Your Business Goal in Record Time
             </h1>
-            <p class="text-[#747582] text-center my-5 text-[20px] text-align-[left]">
+            <p className="text-[#747582] text-center my-5 text-[20px] text-align-[left]">
               Support small business and join the nationwide movement to
               encourage commercial support for the millions of minority owned
               businesses helping world economy.
             </p>
-            <div class="flex flex-row items-center text-center ">
-              <button class="bg-[#FF698D]  px-5 py-3 rounded-3xl text-white border border-[#FFFFFF] ">
+            <div className="flex flex-row items-center text-center ">
+              <button className="bg-[#FF698D]  px-5 py-3 rounded-3xl text-white border border-[#FFFFFF] ">
                 Get Started
               </button>
-              <div className="flex flex-row m-auto">
-                <span className="text-2xl ">
+              <div classNameName="flex flex-row m-auto">
+                <span classNameName="text-2xl ">
                   <BsFillPlayCircleFill />
                 </span>
-                <a href="" class="text-black-500 px-3 hover:text-blue-700 ">
+                <a href="" className="text-black-500 px-3 hover:text-blue-700 ">
                   Book a 30 Min Quick Meeting
                 </a>
               </div>
             </div>
           </div>
-          <div class="w-full max-w-lg mx-auto  bg-white">
+          <div className="w-full max-w-lg mx-auto  bg-white">
             <img
               src="https://webure-tech.netlify.app/assets/Group%202052-bc210db1.png"
               alt="Business"
-              className="rounded-lg"
+              classNameName="rounded-lg"
             />
           </div>
         </div>
       </summary>
       {/* loogo is here  */}
-      <div class="flex justify-around m-4">
+      <div className="flex justify-around m-4">
         
-        <div class="text-center flex justify-around text-[#B7C0CC]">
-          <h3>Our Capabilities</h3>
-          <p class="text-[#B7C0CC] text-2xl px-2 font-semibold">Slack</p>
+        <div className="text-center flex justify-around text-[#B7C0CC]">
+          <span className="text-3xl"><BsSlack/></span>
+          <p className="text-[#B7C0CC] text-2xl px-2 font-semibold">Slack</p>
         </div>
-        <div class="text-center flex justify-around text-[#B7C0CC]">
-          <p class="text-[#B7C0CC] font-xl font-weight:900 text-2xl font-medium">
+        <div className="text-center flex justify-around text-[#B7C0CC]">
+          <p className="text-[#B7C0CC] font-xl font-weight:900 text-2xl font-medium">
             Prudential
           </p>
         </div>
@@ -109,39 +110,22 @@ function App() {
             alt="Microsoft logo"
             className="w-10 h-10"
           />
-          <p class="text-[black] text-2xl font-weight:900 font-medium ">
+          <p className="text-[black] text-2xl font-weight:900 font-medium ">
             Microsoft
           </p>
         </div>
 
-        <div class="text-center flex justify-around text-[#B7C0CC]">
-          <p class="text-[#B7C0CC] text-4xl  font-bold">Zoover</p>
+        <div className="text-center flex justify-around text-[#B7C0CC]">
+          <p className="text-[#B7C0CC] text-4xl  font-bold">Zoover</p>
         </div>
       </div>
 
       {/* SERVICES FOR WEBURE */}
-      <div class="flex justify-around m-4">
-        <div class="text-center flex flex-col">
-          <h1>Our Capabilities</h1>
-          <p class="text-[#747582] w-xl">We will bring the breathe of our experience and industry knowledge to help you succeed</p>
-        </div>
-
-        <div class="text-center flex flex-col ">
-        <span><BsSlack/></span>
-        <p class="text-[#747582] w-xl">Leverage agile framework to provide a robust high level synopsys overviews</p>
-        </div>
-
-        <div class="text-center flex flex-col">
-        <span><BsSlack/></span>
-          <h3>Create</h3>
-          <p class="text-[#747582]">Bring to the table survival strategies to ensure proactive domination</p>
-        </div>
-
-        <div class="text-center flex flex-col">
-          <span><BsSlack/></span>
-          <p class="text-[#747582] ">Grow the holistic world view of disruptive innovation workspace</p>
-        </div>
+      <div>
+        <Service/>
       </div>
+     
+      
     </div>
   );
 }
