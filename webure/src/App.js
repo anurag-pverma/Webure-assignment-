@@ -123,21 +123,22 @@ function App() {
       <div class="flex justify-around m-4">
         <div class="text-center flex flex-col">
           <h1>Our Capabilities</h1>
-          <p class="text-[#747582]">We will bring the breathe of our experience and industry knowledge to help you succeed</p>
+          <p class="text-[#747582] w-xl">We will bring the breathe of our experience and industry knowledge to help you succeed</p>
         </div>
 
         <div class="text-center flex flex-col ">
-          <p class="text-[#747582]">Leverage agile framework to provide a robust high level synopsys overviews</p>
+        <span><BsSlack/></span>
+        <p class="text-[#747582] w-xl">Leverage agile framework to provide a robust high level synopsys overviews</p>
         </div>
 
         <div class="text-center flex flex-col">
-          <img src="https://webure-tech.netlify.app/assets/Group%202058-09b4425e.png" alt="Cunsult" className="w-10 h-10"/>
+        <span><BsSlack/></span>
           <h3>Create</h3>
           <p class="text-[#747582]">Bring to the table survival strategies to ensure proactive domination</p>
         </div>
 
-        <div class="text-center flex">
-          <img src="https://webure-tech.netlify.app/assets/Group%202059-d8c26943.png" alt="Collaborate" />
+        <div class="text-center flex flex-col">
+          <span><BsSlack/></span>
           <p class="text-[#747582] ">Grow the holistic world view of disruptive innovation workspace</p>
         </div>
       </div>
